@@ -10,8 +10,8 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.SECRET_PAT }}
       ISSUE_URL: ${{ github.event.issue.html_url }}
-      PROJECT_OWNER: your-org-or-username
-      PROJECT_NUMBER: your-project-number
+      PROJECT_OWNER: Quiktek
+      PROJECT_NUMBER: 2
 
     steps:
       - name: Install GitHub CLI
